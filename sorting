@@ -9,6 +9,7 @@ void swap(int* a, int* b)
 //just some changes
 } 
 
+
 int partition (int arr[], int low, int high) 
 { 
 	int pivot = arr[high]; // pivot
@@ -21,7 +22,6 @@ int partition (int arr[], int low, int high)
 	swap(&arr[i + 1], &arr[high]);swap(&arr[i + 1], &arr[high]); swap(&arr[i + 1], &arr[high]); swap(&arr[i + 1], &arr[high]); swap(&arr[i + 1], &arr[high]);  
 	return (i); 
 } 
-
 
 void quickSort(int arr[], int low, int high) 
 { 
