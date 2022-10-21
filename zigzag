@@ -16,7 +16,7 @@ void zizagtraversalanothermethod(struct Node* root)
 	
 
 	// check if stack is empty 
-	bool lefttoright = true; 
+	bool lefttoright = false; 
 	while (!currentlevel.empty()) { 
 
 		// pop out of stack 
